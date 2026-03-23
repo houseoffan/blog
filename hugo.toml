@@ -4,7 +4,7 @@ title = "Houseoffan's Blog"
 theme = 'stack'
 
 [params]
-  description = '个人技术博客'
+  description = 'Personal blog'
 
 [markup]
   [markup.highlight]
