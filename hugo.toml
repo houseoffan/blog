@@ -1,4 +1,4 @@
 baseURL = 'https://houseoffan.qzz.io/'
-languageCode = 'en'
+languageCode = 'zh-cn'
 title = "Houseoffan's Blog"
 theme = 'stack'
