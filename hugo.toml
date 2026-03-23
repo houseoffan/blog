@@ -1,0 +1,11 @@
+baseURL = 'https://blog.pages.dev/'
+languageCode = 'zh-cn'
+title = 'My Blog'
+theme = 'PaperMod'
+
+[params]
+  description = 'My personal blog'
+
+[markup]
+  [markup.highlight]
+    noClasses = false
