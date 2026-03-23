@@ -1,10 +1,10 @@
 baseURL = 'https://blog.pages.dev/'
 languageCode = 'zh-cn'
-title = 'My Blog'
-theme = 'PaperMod'
+title = 'Houseoffan\'s Blog'
+theme = 'stack'
 
 [params]
-  description = 'My personal blog'
+  description = 'Personal blog'
 
 [markup]
   [markup.highlight]
