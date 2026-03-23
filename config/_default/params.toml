@@ -56,10 +56,10 @@ SortBy              = "default"
     # See all the available configurations at https://github.com/CaiJimmy/hugo-theme-stack/blob/master/config/_default/params.toml
     # Copy the configurations you need from there and paste it here.
 [comments.giscus]
-    repo             = houseoffan/blog
-    repoID           = R_kgDORuEVYA
-    category         = Announcements
-    categoryID       = DIC_kwDORuEVYM4C5Drb
+    repo             = "houseoffan/blog"
+    repoID           = "R_kgDORuEVYA"
+    category         = "Announcements"
+    categoryID       = "DIC_kwDORuEVYM4C5Drb"
     mapping          = "pathname"
     lightTheme       = "light"
     darkTheme        = "dark_dimmed"
@@ -68,4 +68,4 @@ SortBy              = "default"
     inputPosition    = "bottom"
     lang             = "zh-CN"
     strict           = 0
-    loading          = "loading..."
+    loading          = "lazy"
