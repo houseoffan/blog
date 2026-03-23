@@ -2,3 +2,10 @@ baseURL = 'https://houseoffan.qzz.io/'
 languageCode = 'zh-cn'
 title = "Houseoffan's Blog"
 theme = 'stack'
+defaultContentLanguage = 'zh-cn'
+
+[params]
+  description = 'Personal blog'
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
