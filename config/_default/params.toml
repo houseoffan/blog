@@ -1,35 +1,15 @@
-# Pages placed under these sections will be shown on homepage and archive page.
-mainSections = ["post"]
-# Output page's full content in RSS.
-rssFullContent = true
-favicon        = "img/favicon.png"
-
-# Accepted values: "default", "lastmod"
-# default = see https://gohugo.io/quick-reference/glossary/#default-sort-order
-# lastmod = sort by last modified date, in descending order
-SortBy              = "default"
+[sidebar]
+    emoji = ""
+    subtitle = "¸ù¾İ zty ¶¨ÂÉ£¬Ã¿´ÎÎÒµÄ CF rating max µÄÏÂÒ»³¡¶¼»áµô·Ö£¬ÓÖÊµÏÖÁË£¬ÕæÊÇ¿Ö²ÀÈçË¹"
+    avatar = "img/avatar.png"
 
 [footer]
-    since      = 2026
+    since = 2026
     customText = ""
 
-[dateFormat]
-    published   = ":date_full"
-    lastUpdated = ":date_full"
-
-[sidebar]
-    emoji    = "ğŸ¥"
-    subtitle = "æ ¹æ® zty å®šå¾‹ï¼Œæ¯æ¬¡æˆ‘çš„ CF rating max çš„ä¸‹ä¸€åœºéƒ½ä¼šæ‰åˆ†ï¼Œåˆå®ç°äº†ï¼ŒçœŸæ˜¯ææ€–å¦‚æ–¯"
-    avatar   = "img/avatar.png"
-
 [article]
-    headingAnchor = false
-    math          = true
-    readingTime   = true
-
-    [article.license]
-        enabled = true
-        default = "Licensed under CC BY-NC-SA 4.0"
+    math = true
+    readingTime = true
 
 [widgets]
     homepage = [
@@ -40,32 +20,6 @@ SortBy              = "default"
     ]
     page = [{ type = "toc" }]
 
-[opengraph.twitter]
-    site = ""
-    card = "summary_large_image"
-
 [colorScheme]
-    toggle  = true
+    toggle = true
     default = "auto"
-
-## Comments
-[comments]
-    enabled  = true
-    provider = "giscus"
-
-    # See all the available configurations at https://github.com/CaiJimmy/hugo-theme-stack/blob/master/config/_default/params.toml
-    # Copy the configurations you need from there and paste it here.
-[comments.giscus]
-    repo             = "houseoffan/blog"
-    repoID           = "R_kgDORuEVYA"
-    category         = "Announcements"
-    categoryID       = "DIC_kwDORuEVYM4C5Drb"
-    mapping          = "pathname"
-    lightTheme       = "light"
-    darkTheme        = "dark_dimmed"
-    reactionsEnabled = 1
-    emitMetadata     = 0
-    inputPosition    = "bottom"
-    lang             = "zh-CN"
-    strict           = 0
-    loading          = "lazy"
