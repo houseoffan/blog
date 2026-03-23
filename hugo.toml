@@ -1,11 +1,4 @@
-baseURL = 'https://blog.pages.dev/'
+baseURL = 'https://houseoffan.qzz.io/'
 languageCode = 'zh-cn'
 title = "Houseoffan's Blog"
 theme = 'stack'
-
-[params]
-  description = 'Personal blog'
-
-[markup]
-  [markup.highlight]
-    noClasses = false
