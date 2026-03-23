@@ -1,6 +1,6 @@
 baseURL = 'https://blog.pages.dev/'
 languageCode = 'zh-cn'
-title = 'Houseoffan\'s Blog'
+title = "Houseoffan's Blog"
 theme = 'PaperMod'
 
 [params]
