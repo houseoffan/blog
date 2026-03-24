@@ -1,11 +1,11 @@
 ---
 title: "主页"
 date: 2026-03-23
-layout: "host"
-slug: "host"
+layout: "home"
+slug: "home"
 menu:
     main:
         weight: 2
         params: 
-            icon: host
+            icon: home
 ---
