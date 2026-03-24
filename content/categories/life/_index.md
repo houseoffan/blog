@@ -1,3 +1,3 @@
 ---
-title: "Life"
+title: "休闲·娱乐"
 ---
