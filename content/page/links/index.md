@@ -1,5 +1,6 @@
 ---
 title: 友链
+description: 这里存了一些站点
 links:
   - title: Luogu
     description: 我的洛谷主页
@@ -9,6 +10,7 @@ links:
     description: 友链
     website: https://s-am1019.github.io/
     image: https://cdn.luogu.com.cn/upload/usericon/1256427.png
+    
 
 menu:
     main: 
