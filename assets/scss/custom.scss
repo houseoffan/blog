@@ -1,12 +1,12 @@
-// ========== C++ 风格代码高亮 ==========
-// 基于 VS Code C++ 主题配色
+// ========== C++ 风格代码高亮（无边框，浅灰底） ==========
 
 /* 代码块容器 */
 .highlight {
     background: #f5f5f5 !important;      // 浅灰色背景
     border-radius: 8px;
     margin: 1.2em 0;
-    border: 1px solid #e0e0e0;
+    border: none !important;              // 无边框
+    box-shadow: none;
 }
 
 /* 代码块内部 */
@@ -29,17 +29,17 @@
 /* ========== C++ 语法高亮配色 ========== */
 
 /* 关键字 (if, else, for, while, return, etc.) */
-.chroma .k { color: #0000ff; font-weight: 500; }      // 蓝色
-.chroma .kd { color: #0000ff; font-weight: 500; }     // 声明 (int, char, etc.)
-.chroma .kn { color: #0000ff; font-weight: 500; }     // 命名空间
-.chroma .kr { color: #0000ff; font-weight: 500; }     // 保留字
+.chroma .k { color: #0000ff; font-weight: 500; }
+.chroma .kd { color: #0000ff; font-weight: 500; }
+.chroma .kn { color: #0000ff; font-weight: 500; }
+.chroma .kr { color: #0000ff; font-weight: 500; }
 
 /* 类型 (int, char, double, vector, etc.) */
-.chroma .kt { color: #2b91af; }                        // 蓝绿色
-.chroma .nc { color: #2b91af; font-weight: 500; }     // 类名
+.chroma .kt { color: #2b91af; }
+.chroma .nc { color: #2b91af; font-weight: 500; }
 
 /* 字符串 */
-.chroma .s { color: #a31515; }                         // 红棕色
+.chroma .s { color: #a31515; }
 .chroma .s1 { color: #a31515; }
 .chroma .s2 { color: #a31515; }
 
@@ -47,43 +47,36 @@
 .chroma .sc { color: #a31515; }
 
 /* 注释 */
-.chroma .c { color: #008000; font-style: italic; }     // 绿色斜体
+.chroma .c { color: #008000; font-style: italic; }
 .chroma .c1 { color: #008000; font-style: italic; }
 .chroma .cm { color: #008000; font-style: italic; }
 
 /* 预处理指令 (#include, #define) */
-.chroma .cp { color: #0000ff; font-weight: 500; }      // 蓝色
+.chroma .cp { color: #0000ff; font-weight: 500; }
 
 /* 数字 */
-.chroma .m { color: #098658; }                         // 深绿色
+.chroma .m { color: #098658; }
 .chroma .mf { color: #098658; }
 .chroma .mh { color: #098658; }
 .chroma .mi { color: #098658; }
 .chroma .mo { color: #098658; }
 
 /* 函数名 */
-.chroma .nf { color: #795e26; }                        // 棕黄色
+.chroma .nf { color: #795e26; }
 .chroma .nx { color: #795e26; }
 
 /* 运算符 */
-.chroma .o { color: #000000; font-weight: 500; }       // 黑色
+.chroma .o { color: #000000; font-weight: 500; }
 
 /* 变量 */
-.chroma .nv { color: #001080; }                        // 深蓝色
+.chroma .nv { color: #001080; }
 
 /* 宏定义 */
-.chroma .na { color: #ff0000; }                        // 红色
-
-/* 模板参数 */
-.chroma .n { color: #000000; }
-
-/* 命名空间 */
-.chroma .nn { color: #0000ff; }
+.chroma .na { color: #ff0000; }
 
 /* ========== 暗色模式 ========== */
 .dark .highlight {
     background: #1e1e1e !important;
-    border-color: #333;
 }
 
 .dark .chroma {
@@ -95,14 +88,14 @@
     color: #858585;
 }
 
-.dark .chroma .k { color: #569cd6; }                   // 浅蓝色
+.dark .chroma .k { color: #569cd6; }
 .dark .chroma .kd { color: #569cd6; }
-.dark .chroma .kt { color: #4ec9b0; }                  // 青绿色
+.dark .chroma .kt { color: #4ec9b0; }
 .dark .chroma .nc { color: #4ec9b0; }
-.dark .chroma .s { color: #ce9178; }                   // 橙色
-.dark .chroma .c { color: #6a9955; }                   // 浅绿色
+.dark .chroma .s { color: #ce9178; }
+.dark .chroma .c { color: #6a9955; }
 .dark .chroma .cp { color: #569cd6; }
 .dark .chroma .m { color: #b5cea8; }
-.dark .chroma .nf { color: #dcdcaa; }                  // 黄色
+.dark .chroma .nf { color: #dcdcaa; }
 .dark .chroma .nv { color: #9cdcfe; }
 .dark .chroma .o { color: #d4d4d4; }
