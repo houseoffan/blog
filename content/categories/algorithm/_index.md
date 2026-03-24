@@ -1,3 +1,3 @@
 ---
-title: "Algorithm"
+title: "算法·理论"
 ---
