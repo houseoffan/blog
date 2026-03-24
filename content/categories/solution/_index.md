@@ -1,3 +1,3 @@
 ---
-title: "Solution"
+title: "题解"
 ---
