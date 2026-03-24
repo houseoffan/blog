@@ -1,9 +1,10 @@
 ---
-title: "First Post"
-date: 2026-03-23
+title: "CF2126C I Will Definitely Make It"
+date: 2026-03-24
 draft: false
 categories: ["solution"]
 tags: ["普及-","贪心"]
+math: true
 ---
 
 ## 思路
