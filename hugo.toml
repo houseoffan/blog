@@ -2,3 +2,4 @@ baseURL = 'https://houseoffan.qzz.io/'
 languageCode = 'zh-cn'
 title = "House_of_Fan"
 theme = 'stack'
+defaultContentLanguage = 'zh-cn'
