@@ -1,3 +1,115 @@
 /*
     You can add your own custom styles here.
 */
+// ========== 洛谷风格代码块 ==========
+// 浅灰色背景，柔和的高亮
+
+/* 代码块容器 */
+.highlight {
+    background: #f8f9fa !important;  // 浅灰色背景
+    border-radius: 8px;
+    margin: 1.2em 0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+/* 代码块内部 */
+.chroma {
+    background: #f8f9fa !important;
+    padding: 0.8em 1em;
+    border-radius: 8px;
+    font-family: 'Fira Code', 'Consolas', monospace;
+    font-size: 0.85rem;
+    line-height: 1.5;
+}
+
+/* 代码行 */
+.chroma .lntd {
+    padding: 0;
+}
+
+.chroma .lntable {
+    width: 100%;
+    border-collapse: separate;
+}
+
+/* 行号 */
+.chroma .lnt {
+    color: #adb5bd;
+    padding-right: 1em;
+    user-select: none;
+}
+
+/* ========== 浅色系高亮配色 ========== */
+/* 关键字 */
+.chroma .k { color: #d73a49; font-weight: 500; }      // 粉色
+.chroma .kc { color: #d73a49; font-weight: 500; }     // 常量
+.chroma .kd { color: #d73a49; font-weight: 500; }     // 声明
+.chroma .kn { color: #d73a49; font-weight: 500; }     // 命名空间
+.chroma .kp { color: #d73a49; font-weight: 500; }     // 属性
+.chroma .kr { color: #d73a49; font-weight: 500; }     // 保留字
+.chroma .kt { color: #d73a49; font-weight: 500; }     // 类型
+
+/* 字符串 */
+.chroma .s { color: #22863a; }          // 绿色
+.chroma .s1 { color: #22863a; }         // 单引号字符串
+.chroma .s2 { color: #22863a; }         // 双引号字符串
+
+/* 注释 */
+.chroma .c { color: #6a737d; font-style: italic; }     // 灰色斜体
+.chroma .c1 { color: #6a737d; font-style: italic; }
+.chroma .cm { color: #6a737d; font-style: italic; }
+.chroma .cp { color: #6a737d; font-style: italic; }
+
+/* 数字 */
+.chroma .m { color: #005cc5; }           // 蓝色
+.chroma .mf { color: #005cc5; }
+.chroma .mh { color: #005cc5; }
+.chroma .mi { color: #005cc5; }
+.chroma .mo { color: #005cc5; }
+
+/* 函数名 */
+.chroma .nf { color: #6f42c1; }          // 紫色
+.chroma .nx { color: #6f42c1; }
+
+/* 变量 */
+.chroma .nv { color: #e36209; }          // 橙色
+
+/* 运算符 */
+.chroma .o { color: #d73a49; }           // 粉色
+
+/* 装饰器/注解 */
+.chroma .nd { color: #6f42c1; }
+
+/* 类名 */
+.chroma .nc { color: #6f42c1; font-weight: 500; }
+
+/* 标签 (HTML) */
+.chroma .nt { color: #22863a; }
+
+/* 属性 (HTML) */
+.chroma .na { color: #005cc5; }
+
+/* 错误 */
+.chroma .err { color: #f97583; background: #ffeef0; }
+
+/* ========== 暗色模式适配 ========== */
+.dark .highlight {
+    background: #1e1e2e !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+.dark .chroma {
+    background: #1e1e2e !important;
+}
+
+.dark .chroma .lnt {
+    color: #5a5a6e;
+}
+
+.dark .chroma .k { color: #ff79c6; }
+.dark .chroma .s { color: #50fa7b; }
+.dark .chroma .c { color: #6272a4; }
+.dark .chroma .m { color: #bd93f9; }
+.dark .chroma .nf { color: #8be9fd; }
+.dark .chroma .nv { color: #f1fa8c; }
+.dark .chroma .o { color: #ff79c6; }
