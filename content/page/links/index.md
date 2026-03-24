@@ -5,6 +5,11 @@ links:
     description: GitHub is the world's largest software development platform.
     website: https://github.com
     image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+
+  - title: Luogu
+    description: My luogu account
+    website: https://luogu.com.cn/user/1495223
+    image: https://cdn.luogu.com.cn/upload/image_hosting/1ublysmw.png
 menu:
     main: 
         weight: 4
